@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    border: 0.3rem solid black;
+}
+.espacio {
+    background-color: red;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.nav li {
+    display: inline-block;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    display:block;
+}
+.box1 {
+    background-color: orange;
+}
+.box2 {
+    background-color: yellow;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    background-color: blue;
+}
