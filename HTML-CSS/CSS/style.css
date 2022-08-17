@@ -1,0 +1,18 @@
+h1 {
+    color: aqua;
+    background-color: black;
+    font-size: 35px;
+}
+h3 {
+    background-color: coral;
+    font-size: large;
+}
+p {
+    color: darkblue;
+    background-color: darkgrey;
+    padding-block-end: 30px;
+}
+#titulo {
+    color: red;
+}
+

@@ -1,0 +1,28 @@
+/**h2 + p {
+    color: red;
+} Esto hace que las etiquetas p que estan abajo de 
+las etiquetas h2 se les aplique las propiedades**/
+
+/**h2 ~ p {
+    color:red;
+} Esto hace que cualquier etiqueta p que este dentro de la
+etiqueta div se le aplique la propiedad, ya que p es hermano
+general de la etiqueta h2**/
+
+/**div > p {
+    color: red;
+} Esto hace que la propiedad se aplique solamente a las etiquetas
+p que sean hijos directos de la etiqueta div, osea que esten 
+directamente dentro de la etiqueta div sin la necesidad
+de estar ya dentro de otra etiqueta**/
+
+/**div p {
+    color: red;
+}Esto hace que la propiedad se aplique a toda etiqueta p que este
+dentro de un contenedor o etiqueta, 
+no importa si esta ya estaba dentro de otra**/
+
+
+
+
+

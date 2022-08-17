@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    background-color: coral;
+}
+main {
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 300px;
+    min-height: 200px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 1rem;
+}
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+}
+#two {
+    background-color: aqua;
+    justify-items: center;
+    width: 250px;
+    height: 60px;
+    font-size: 1.9rem;
+    margin-top: 2px;
+    margin-left: 70%;
+    position: relative;
+    bottom: 40px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    
+    
+}
+p {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
